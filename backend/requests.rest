@@ -1,0 +1,14 @@
+GET http://localhost:5000/bugs
+
+###
+
+POST http://localhost:5000/add
+content-type: application/json
+
+{
+    "title":"Bug 1",
+    "reporter":"Clark",
+    "description":"This is full form bug",
+    "priority":'3'
+
+}
